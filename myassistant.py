@@ -29,10 +29,10 @@ while True:
         os.system("Control Panel")
     elif (("run" in p) or ("execute" in p) or ("open" in p)) and ("Task Manager" in p):
         pyttsx3.speak("yes, here is Task Manager")
-        os.system("Task Manager")
+        os.system("Taskmgr")
     elif (("run" in p) or ("execute" in p) or ("open" in p)) and ("Command Prompt" in p): 
         pyttsx3.speak("yes, here is Command Prompt")
-        os.system("Command Prompt")
+        os.system("cmd")
     elif (("run" in p) or ("execute" in p) or ("open" in p)) and (("calc" in p) or ("calculator" in p)): 
         pyttsx3.speak("yes, here is calc")
         os.system("calc")
